@@ -1,4 +1,4 @@
-# 🤖 Yapay Zeka ile Geliştirme Günlüğü (AI.md)
+# 🤖 Yapay Zeka ile Geliştirme Günlüğü
 
 Bu dosyada, proje geliştirme sürecinde danıştığım yapay zeka araçları ile olan örnek konuşmalar ve projeme özgü bazı önemli bileşenler yer almaktadır.
 
