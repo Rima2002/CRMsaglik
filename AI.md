@@ -1,31 +1,38 @@
-# 🤖 AI.md – Yapay Zeka ile Geliştirme Desteği
+# 🤖 Yapay Zeka ile Geliştirme Günlüğü (AI.md)
 
-Bu proje geliştirilirken ChatGPT gibi yapay zeka tabanlı sohbet araçlarından kod yazımı, algoritma önerileri ve kullanıcı arayüzü tasarımı gibi konularda destek alınmıştır. Aşağıda örnek sohbet kayıtları yer almaktadır.
+Bu dosyada, proje geliştirme sürecinde danıştığım yapay zeka araçları ile olan örnek konuşmalar ve projeme özgü bazı önemli bileşenler yer almaktadır.
 
 ---
 
-## 🟡 1. Veritabanı Yapısı Tasarımı
+## 🧠 Sohbet 1: Otomatik Uyarı Kapanma Özelliği (JavaScript)
 
-👤 Ben:  
-CRM Sağlık Turizmi için kullanıcı, hasta, hizmet, ödeme ve geri bildirim tablolarını içeren bir MySQL veritabanı yapısı önerir misin?
+**Ben:**  
+Sayfada beliren uyarı kutularını otomatik olarak 4 saniye sonra yok etmek istiyorum. Bunu modern ve animasyonlu şekilde nasıl yaparım?
 
-🤖 ChatGPT:  
-Elbette. Aşağıda örnek tablo yapıları verilmiştir:
+**ChatGPT:**  
+Bunun için `setTimeout` kullanabilirsin. Opaklık değerini azaltarak bir "fade out" efekti verebilir, ardından `remove()` ile DOM'dan kaldırabilirsin. İşte örnek:
 
-```sql
-CREATE TABLE users (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  username VARCHAR(50) NOT NULL,
-  password VARCHAR(255) NOT NULL
-);
+```js
+setTimeout(() => {
+  alerts.forEach(alert => {
+    alert.style.transition = "opacity 0.5s ease";
+    alert.style.opacity = 0;
+    setTimeout(() => alert.remove(), 500);
+  });
+}, 4000);
+```
 
-CREATE TABLE patients (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  full_name VARCHAR(100),
-  country VARCHAR(50),
-  passport_number VARCHAR(50),
-  contact_info VARCHAR(100),
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
--- diğer tablolar devam eder...
+## 🧠 Sohbet 2: Negatif Sayı Girişi Engelleme
 
+**Ben:**  
+Formlarda kullanıcıların negatif sayı girmesini istemiyorum. JavaScript ile bunu nasıl sınırlarım?
+
+**ChatGPT:**  
+`input[type="number"]` olan alanlarda input event’i dinleyerek negatif girişleri sıfıra çekebilirsin.
+
+```input.addEventListener("input", function () {
+  if (this.value < 0) {
+    this.value = 0;
+  }
+});
+```
