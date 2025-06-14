@@ -28,11 +28,38 @@ setTimeout(() => {
 Formlarda kullanıcıların negatif sayı girmesini istemiyorum. JavaScript ile bunu nasıl sınırlarım?
 
 **ChatGPT:**  
-`input[type="number"]` olan alanlarda input event’i dinleyerek negatif girişleri sıfıra çekebilirsin.
+`input[type="number"]` olan alanlarda `input` event’i dinleyerek negatif girişleri sıfıra çekebilirsin.
 
 ```input.addEventListener("input", function () {
   if (this.value < 0) {
     this.value = 0;
   }
 });
+```
+
+## 🧠 Sohbet 3: Sohbet 3: Yıldızlı Geri Bildirim Validasyonu
+
+**Ben:**  
+Geri bildirim formumda kullanıcılar puan seçmeden formu gönderebiliyor. Bunu engellemek istiyorum.
+
+**ChatGPT:**  
+`submit` event’ine müdahale ederek, rating seçilmemişse `preventDefault()` ile gönderimi engelleyebilirsin.
+
+```form.addEventListener("submit", function (e) {
+  if (!ratingSelect.value) {
+    alert("Lütfen puan seçiniz.");
+    e.preventDefault();
+  }
+});
+```
+
+## 🧠 Sohbet 4: Finansal Durum Takibi için Boolean Alan Kullanımı
+
+**Ben:**  
+Her hastanın ödemesinin yapılıp yapılmadığını sistemde göstermek istiyorum. En sade ve doğru yöntem nedir?
+
+**ChatGPT:**  
+Veritabanında `paid` adında `BOOLEAN` (ya da `TINYINT`) bir sütun oluşturman yeterli. `0` ödenmedi, `1` ödendi anlamına gelir. Arayüzde bu değeri ikon ya da renkli etiketle gösterebilirsin. 
+
+```paid BOOLEAN DEFAULT FALSE
 ```
