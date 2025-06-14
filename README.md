@@ -1,6 +1,6 @@
 # 🩺 CRM Sağlık Turizmi Yönetim Sistemi
 
-Bu uygulama, yurt dışından gelen hastaların sağlık hizmetlerinden sistematik ve etkin bir şekilde yararlanabilmesi için geliştirilmiştir. Kullanıcı dostu bir panel üzerinden hasta kaydı, sunulan sağlık hizmetlerinin planlaması, mali işlemlerin takibi ve geri bildirimlerin yönetimi yapılabilir.
+Bu uygulama, yurt dışından gelen hastaların sağlık hizmetlerinden sistematik ve etkin bir şekilde yararlanabilmesi için geliştiridim. Kullanıcı dostu bir panel üzerinden hasta kaydı, sunulan sağlık hizmetlerinin planlaması, mali işlemlerin takibi ve geri bildirimlerin yönetimi yapılabilir.
 
 ---
 
@@ -21,6 +21,7 @@ tek bir dijital platform üzerinden kolay ve güvenli şekilde yapabilmeyi hedef
 
 ### 1. 👤 Kullanıcı Yönetimi
 - Kayıt (register.php): Yeni kullanıcı oluşturma
+  
   ![Kayıt](kayit.PNG)
 - Giriş (login.php): Şifre doğrulamalı giriş
   ![Giriş](Giris.PNG)
@@ -65,7 +66,7 @@ tek bir dijital platform üzerinden kolay ve güvenli şekilde yapabilmeyi hedef
 | MySQL          | Veritabanı yönetimi                    |
 | HTML5 / CSS3   | Web sayfa iskeleti ve stilleri         |
 | Bootstrap 5    | Responsive tasarım framework'ü         |
-| JavaScript     | Etkileşimli bileşenler (isteğe bağlı)  |
+| JavaScript     | Etkileşimli bileşenler                 |
 | PDO            | PHP ile veritabanı bağlantısı için     |
 | Sessions       | Kullanıcı oturum kontrolü              |
 
@@ -138,7 +139,7 @@ Tablolar:
    C:\xampp\htdocs\crm_saglik_turizmi\
    ```
 3. Apache ve MySQL’i başlatın.
-4. phpMyAdmin'de `crm_saglik` adında yeni veritabanı oluşturun.
+4. phpMyAdmin'de `dbstorage21360859216` adında yeni veritabanı oluşturun.
 5. `veritabani.sql` dosyasını içe aktarın.
 6. Tarayıcıdan uygulamayı başlatın:
    ```
@@ -149,7 +150,7 @@ Tablolar:
 
 ## 📹 Tanıtım Videosu
 
-🎥 [YouTube veya Google Drive Tanıtım Videosu](https://drive.google.com/...)
+🎥 [YouTube Tanıtım Videosu](https://drive.google.com/...)
 
 ---
 
