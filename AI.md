@@ -61,5 +61,6 @@ Her hastanın ödemesinin yapılıp yapılmadığını sistemde göstermek istiy
 **ChatGPT:**  
 Veritabanında `paid` adında `BOOLEAN` (ya da `TINYINT`) bir sütun oluşturman yeterli. `0` ödenmedi, `1` ödendi anlamına gelir. Arayüzde bu değeri ikon ya da renkli etiketle gösterebilirsin. 
 
-```paid BOOLEAN DEFAULT FALSE
+```
+paid BOOLEAN DEFAULT FALSE
 ```
