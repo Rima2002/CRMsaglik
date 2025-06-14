@@ -21,7 +21,12 @@ tek bir dijital platform üzerinden kolay ve güvenli şekilde yapabilmeyi hedef
 
 ### 1. 👤 Kullanıcı Yönetimi
 - Kayıt (register.php): Yeni kullanıcı oluşturma
-  
+
+
+
+
+
+
   ![Kayıt](kayit.PNG)
 - Giriş (login.php): Şifre doğrulamalı giriş
   ![Giriş](Giris.PNG)
