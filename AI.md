@@ -37,7 +37,7 @@ Formlarda kullanıcıların negatif sayı girmesini istemiyorum. JavaScript ile 
 });
 ```
 
-## 🧠 Sohbet 3: Sohbet 3: Yıldızlı Geri Bildirim Validasyonu
+## 🧠 Sohbet 3: Yıldızlı Geri Bildirim Validasyonu
 
 **Ben:**  
 Geri bildirim formumda kullanıcılar puan seçmeden formu gönderebiliyor. Bunu engellemek istiyorum.
@@ -65,28 +65,7 @@ Veritabanında `paid` adında `BOOLEAN` (ya da `TINYINT`) bir sütun oluşturman
 paid BOOLEAN DEFAULT FALSE
 ```
 
-## 🧠 Sohbet 5: Responsive ve Estetik Arayüz (Mobile First)
-
-**Ben:**  
-Uygulamam sade ama modern gözüksün istiyorum. Özellikle mobilde dağılmamalı. Bootstrap kullanmadan bunu nasıl yaparım?
-
-**ChatGPT:**  
-Özel CSS yazabilirsin. Örneğin:
-
-```
-@media (max-width: 768px) {
-  .btn {
-    width: 100%;
-    margin-bottom: 0.5rem;
-  }
-
-  .card {
-    margin-bottom: 1rem;
-  }
-}
-```
-
-## 🧠 Sohbet 5: Kullanıcı Bazlı Hasta Kaydı (created_by ilişkisi)
+## 🧠 Sohbet 4: Kullanıcı Bazlı Hasta Kaydı (created_by ilişkisi)
 
 **Ben:**  
 Her hasta kaydının kim tarafından eklendiğini takip etmek istiyorum. Bu bilgiye hem yönetim hem güvenlik için ihtiyacım var.
@@ -99,7 +78,7 @@ created_by INT,
 FOREIGN KEY (created_by) REFERENCES users(id)
 ```
 
-## 🧠 Sohbet 6: Form Doğrulama: Hem JS Hem PHP Tarafında
+## 🧠 Sohbet 5: Form Doğrulama: Hem JS Hem PHP Tarafında
 
 **Ben:**  
 Formları sadece frontend değil, backend'de de güvenli doğrulamak istiyorum. En iyi yöntem nedir?
