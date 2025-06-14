@@ -161,15 +161,3 @@ Tablolar:
 - Hazır PHP kütüphaneleri kullanılmaz.
 - Yapay zeka araçları ile geliştirilen kodlar AI.md dosyasında kayıtlıdır.
 
----
-
-## 📧 İletişim
-
-Herhangi bir soru ya da öneri için:
-
-📧 E-posta: ornek@ogrenci.com
-
----
-
-> Bu proje, Web Tabanlı Programlama dersi kapsamında geliştirilmiş bireysel ödevdir.
-
