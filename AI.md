@@ -65,7 +65,7 @@ Veritabanında `paid` adında `BOOLEAN` (ya da `TINYINT`) bir sütun oluşturman
 paid BOOLEAN DEFAULT FALSE
 ```
 
-## 🧠 Sohbet 4: Kullanıcı Bazlı Hasta Kaydı (created_by ilişkisi)
+## 🧠 Sohbet 5: Kullanıcı Bazlı Hasta Kaydı (created_by ilişkisi)
 
 **Ben:**  
 Her hasta kaydının kim tarafından eklendiğini takip etmek istiyorum. Bu bilgiye hem yönetim hem güvenlik için ihtiyacım var.
@@ -78,7 +78,7 @@ created_by INT,
 FOREIGN KEY (created_by) REFERENCES users(id)
 ```
 
-## 🧠 Sohbet 5: Form Doğrulama: Hem JS Hem PHP Tarafında
+## 🧠 Sohbet 6: Form Doğrulama: Hem JS Hem PHP Tarafında
 
 **Ben:**  
 Formları sadece frontend değil, backend'de de güvenli doğrulamak istiyorum. En iyi yöntem nedir?
