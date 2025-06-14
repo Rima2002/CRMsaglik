@@ -23,28 +23,36 @@ tek bir dijital platform üzerinden kolay ve güvenli şekilde yapabilmeyi hedef
 - Kayıt (register.php): Yeni kullanıcı oluşturma
   ![Kayıt](kayit.PNG)
 - Giriş (login.php): Şifre doğrulamalı giriş
+  ![Giriş](Giris.PNG)
 - Oturum Açma/Kapama: PHP sessions ile güvenli oturum takibi
+  ![Oturum Açma Kapama](anaSayfa.PNG)
 - Şifreler `password_hash()` ile şifrelenmiş
 
 ### 2. 🧾 Hasta Yönetimi
 - Hasta Ekleme (add_patient.php): Temel bilgiler (ad, soyad, ülke, pasaport, iletişim)
+  ![Hasta Ekleme](hastaEkleme.PNG)
 - Hasta Listesi (list_patients.php): Eklenen hastaların tablo şeklinde görüntülenmesi
+  ![Hasta Listeleme](hastaListeleme.PNG)
 - Hasta Güncelleme (edit_patient.php): Var olan hastanın bilgilerini değiştirme
 - Hasta Silme (delete_patient.php): Hasta kaydını kalıcı olarak silme
 
 ### 3. 💉 Hizmet Planlama
 - Hizmet Ekleme (add_service.php): Hasta bazlı tıbbi işlem planlaması
+  ![Hizmet Ekleme](hizmetEkleme.PNG)
 - Hizmetleri Listeleme (list_services.php): Tüm hizmetleri görsel tabloda sunar
+  ![Hizmet Listeleme](hizmetListeleme.PNG)
 - Hizmet Güncelleme (edit_service.php): Hizmet detaylarını düzenleme
 - Hizmet Silme (delete_service.php): Veritabanından kaldırma
 
 ### 4. 💵 Finansal İşlemler
 - Ödeme Kaydı (finance.php): Hasta hizmetleri için ödemeleri izler
+  ![Ödeme Kaydı](odemeKaydi.PNG)
 - Finansal Listeleme: Tüm işlemler listelenir
 - Güncelleme (edit_finance.php): Kayıtlı işlem düzenlenebilir
 
 ### 5. 💬 Geri Bildirim Modülü
 - Yorum Ekleme (feedback.php): Hasta veya personel yorum bırakabilir
+  ![Yorum Ekleme](yorumEkleme.PNG)
 - Yorum Güncelleme (edit_feedback.php): Daha sonra geri dönüş yapılabilir
 
 ---
@@ -136,15 +144,6 @@ Tablolar:
    ```
    http://localhost/crm_saglik_turizmi/
    ```
-
----
-
-## 🖼️ Ekran Görüntüleri
-
-Aşağıdaki dizine ekran görüntülerinizi koyun: screenshots/
-
-- ![Giriş Ekranı](screenshots/giris.png)
-- ![Hasta Listesi](screenshots/hasta_listesi.png)
 
 ---
 
