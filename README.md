@@ -17,7 +17,7 @@ tek bir dijital platform üzerinden kolay ve güvenli şekilde yapabilmeyi hedef
 
 ---
 
-## 🛠Uygulama Modülleri
+## Uygulama Modülleri
 
 ### 1. Kullanıcı Yönetimi
 - Kayıt (register.php): Yeni kullanıcı oluşturma
