@@ -4,7 +4,7 @@ Bu uygulama, yurt dışından gelen hastaların sağlık hizmetlerinden sistemat
 
 ---
 
-## 📌 Amaç
+## Amaç
 
 Sağlık turizmi kapsamında ülkemize gelen hastaların:
 
@@ -17,9 +17,9 @@ tek bir dijital platform üzerinden kolay ve güvenli şekilde yapabilmeyi hedef
 
 ---
 
-## 🛠️ Uygulama Modülleri
+## 🛠Uygulama Modülleri
 
-### 1. 👤 Kullanıcı Yönetimi
+### 1. Kullanıcı Yönetimi
 - Kayıt (register.php): Yeni kullanıcı oluşturma
   ![Kayıt](kayit.PNG)
 - Giriş (login.php): Şifre doğrulamalı giriş
@@ -28,7 +28,7 @@ tek bir dijital platform üzerinden kolay ve güvenli şekilde yapabilmeyi hedef
   ![Oturum Açma Kapama](anaSayfa.PNG)
 - Şifreler `password_hash()` ile şifrelenmiş
 
-### 2. 🧾 Hasta Yönetimi
+### 2. Hasta Yönetimi
 - Hasta Ekleme (add_patient.php): Temel bilgiler (ad, soyad, ülke, pasaport, iletişim)
   ![Hasta Ekleme](hastaEkleme.PNG)
 - Hasta Listesi (list_patients.php): Eklenen hastaların tablo şeklinde görüntülenmesi
@@ -36,7 +36,7 @@ tek bir dijital platform üzerinden kolay ve güvenli şekilde yapabilmeyi hedef
 - Hasta Güncelleme (edit_patient.php): Var olan hastanın bilgilerini değiştirme
 - Hasta Silme (delete_patient.php): Hasta kaydını kalıcı olarak silme
 
-### 3. 💉 Hizmet Planlama
+### 3. Hizmet Planlama
 - Hizmet Ekleme (add_service.php): Hasta bazlı tıbbi işlem planlaması
   ![Hizmet Ekleme](hizmetEkleme.PNG)
 - Hizmetleri Listeleme (list_services.php): Tüm hizmetleri görsel tabloda sunar
@@ -44,20 +44,20 @@ tek bir dijital platform üzerinden kolay ve güvenli şekilde yapabilmeyi hedef
 - Hizmet Güncelleme (edit_service.php): Hizmet detaylarını düzenleme
 - Hizmet Silme (delete_service.php): Veritabanından kaldırma
 
-### 4. 💵 Finansal İşlemler
+### 4. Finansal İşlemler
 - Ödeme Kaydı (finance.php): Hasta hizmetleri için ödemeleri izler
   ![Ödeme Kaydı](odemeKaydi.PNG)
 - Finansal Listeleme: Tüm işlemler listelenir
 - Güncelleme (edit_finance.php): Kayıtlı işlem düzenlenebilir
 
-### 5. 💬 Geri Bildirim Modülü
+### 5. Geri Bildirim Modülü
 - Yorum Ekleme (feedback.php): Hasta veya personel yorum bırakabilir
   ![Yorum Ekleme](yorumEkleme.PNG)
 - Yorum Güncelleme (edit_feedback.php): Daha sonra geri dönüş yapılabilir
 
 ---
 
-## 🧰 Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 | Teknoloji      | Açıklama                               |
 |----------------|----------------------------------------|
@@ -71,7 +71,7 @@ tek bir dijital platform üzerinden kolay ve güvenli şekilde yapabilmeyi hedef
 
 ---
 
-## 🗂️ Dosya ve Klasör Yapısı
+## Dosya ve Klasör Yapısı
 
 ```
 crm_saglik_turizmi/
@@ -116,7 +116,7 @@ crm_saglik_turizmi/
 
 ---
 
-## 🗃️ Veritabanı
+## Veritabanı
 
 Veritabanı yapısı veritabani.sql dosyasında yer almaktadır.
 
@@ -130,7 +130,7 @@ Tablolar:
 
 ---
 
-## 💻 Kurulum Talimatları
+## Kurulum Talimatları
 
 1. XAMPP ya da benzeri yerel sunucu kurun.
 2. Bu projeyi şu klasöre taşıyın:
@@ -138,7 +138,7 @@ Tablolar:
    C:\xampp\htdocs\crm_saglik_turizmi\
    ```
 3. Apache ve MySQL’i başlatın.
-4. phpMyAdmin'de `dbstorage21360859216` adında yeni veritabanı oluşturun.
+4. phpMyAdmin'de `crm_saglik` adında yeni veritabanı oluşturun.
 5. `veritabani.sql` dosyasını içe aktarın.
 6. Tarayıcıdan uygulamayı başlatın:
    ```
@@ -147,13 +147,13 @@ Tablolar:
 
 ---
 
-## 📹 Tanıtım Videosu
+## Tanıtım Videosu
 
 🎥 [YouTube Tanıtım Videosu](https://youtu.be/qHOyQQmfemw)
 
 ---
 
-## 🧠 Geliştirici Notları
+## Geliştirici Notları
 
 - Oturum kontrolü session ile yapılır, cookie kullanılmaz.
 - `.htaccess` dosyası bulunmamaktadır.
