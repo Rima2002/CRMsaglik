@@ -149,7 +149,7 @@ Tablolar:
 
 ## 📹 Tanıtım Videosu
 
-🎥 [YouTube Tanıtım Videosu](https://drive.google.com/...)
+🎥 [YouTube Tanıtım Videosu](https://youtu.be/qHOyQQmfemw)
 
 ---
 
