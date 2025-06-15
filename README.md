@@ -159,5 +159,4 @@ Tablolar:
 - `.htaccess` dosyası bulunmamaktadır.
 - Şifreler veritabanında asla düz metin olarak tutulmaz.
 - Hazır PHP kütüphaneleri kullanılmaz.
-- Yapay zeka araçları ile geliştirilen kodlar AI.md dosyasında kayıtlıdır.
 
